@@ -35,12 +35,12 @@ var o1 = {}; // empty object
 // values in object: key-value pair
 var o2 = { name: "Muneera", job: "web developer", email: "muneera@example.com", isStudent: true };
 
-var o2 = { 
-    name: "Muneera", 
-    job: "web developer", 
-    email: "muneera@example.com", 
-    isStudent: true 
-};
+// var o2 = { 
+//     name: "Muneera", 
+//     job: "web developer", 
+//     email: "muneera@example.com", 
+//     isStudent: true 
+// };
 
 
 // 3 strings
