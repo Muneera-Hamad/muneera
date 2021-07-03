@@ -13,15 +13,11 @@ var y = [10, "20", 30, true, null, "hello world!"]; // array contains values
 // 1 null
 
 // we use (index) to access individual values
-
-y[2]; // 30
-
-y[6]; // undefined
-
-y[5]; // "hello world!"
+console.log(y[2]); // 30
+console.log(y[6]); // undefined
+console.log(y[5]); // "hello world!"
 
 // y.length : number of items in the array
-
 // console.log(y.length); // 6
 
 // we can use (length) with strings
@@ -42,12 +38,5 @@ var o2 = { name: "Muneera", job: "web developer", email: "muneera@example.com", 
 //     isStudent: true 
 // };
 
-
-// 3 strings
-// 1 boolean
-
 // we use (key) to access individual values
-o2.name; // "Muneera"
-
-// console.log(o2); // to print the whole object
-// console.log(o2.name);// "Muneera"
+console.log(o2.name);// "Muneera"
