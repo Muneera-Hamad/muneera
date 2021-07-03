@@ -58,3 +58,22 @@ if (num3 === 0 || num3 === 1) {
 }
 
 
+//------------------------------------------------------------------
+
+var time = 6;
+
+
+// 9 - 15 ==> working hours
+// 15 - 17 ==> rest hours 
+// 17 - 21 ==> studying hours
+// 21 - 24 | 1 - 9 => sleeping hours 
+
+if (time >= 9 && time < 15) {
+    console.log("working hours");
+} else if (time >= 15 && time < 17) {
+    console.log("rest hours");
+} else if (time >= 17 && time < 21) {
+    console.log("studying hours");
+} else if ((time >= 21 && time <= 24) || (time >= 1 && time < 9)) {
+    console.log("sleeping hours");
+}
