@@ -1,0 +1,29 @@
+/*  
+    selector: body
+    selectory type: type selector
+
+    1- property name
+    2- :    
+    3- the value
+    4- ;
+
+    in css, values without quotes ' / "
+
+    if you hav spaces in value you use ' / "
+
+    in css they are called properties
+
+    in html they are called attributes
+
+    1- attribute name
+    2- =
+    3- quotes ' / "
+    4- value between the quotes
+*/
+
+body { 
+    background: red;
+    color: white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
